@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{cool}
+
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\chead{Document Header Here}
+\rhead{\firstxmark}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\setcounter{secnumdepth}{0}
+\setlength\parindent{0pt}
+
+% Useful Commands
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\deriv}[1]{\frac{\partial #1}{\partial #2}}
+
+\begin{document}
+
+\begin{section}{Problem Description}
+  Describe problem here. \\
+
+  \textbf{\large Solution}
+
+  Examples of partial derivatives with the 'cool' package.
+
+  \begin{equation*}
+    \pderiv{f}{x} \quad
+    \pderiv[2]{f}{x}
+  \end{equation*}
+
+
+\end{section}
+
+
+\end{document}
+
+\end{document}
